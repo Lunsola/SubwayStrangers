@@ -5,6 +5,8 @@
 
 define e = Character("Eileen")
 
+#image eileen happy = "blah.jpg"
+
 
 # The game starts here.
 
@@ -15,6 +17,7 @@ label start:
     # images directory to show it.
 
     scene bg room
+
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -28,6 +31,21 @@ label start:
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
+    jump nextscene
+
     # This ends the game.
 
     return
+
+label nextScene:
+    "Next scene"
+
+    menu:
+        "Option 1":
+            e "Here's what"
+        "Option 2":
+            e "More words"
+            jump Option2
+
+label option2:
+    "Oh you picked option 2"
