@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/chapter-ending.rpy", line 11: reached end of line when expecting ':'.
+    if friendliness_meter<end2_requirement
+                                          ^
+
+File "game/chapter-ending.rpy", line 15: reached end of line when expecting ':'.
+    if friendliness_meter>=end3_requirement
+                                           ^
+
+Ren'Py Version: Ren'Py 7.4.2.1292
+Fri May 14 23:46:40 2021

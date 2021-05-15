@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 93, in script
+    jump start_topic5
+ScriptError: could not find label 'start_topic5'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 93, in script
+    jump start_topic5
+  File "/Applications/renpy-7.4.2-sdk/renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Applications/renpy-7.4.2-sdk/renpy/script.py", line 900, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'start_topic5'.
+
+Darwin-20.4.0-x86_64-i386-64bit
+Ren'Py 7.4.2.1292
+SubwayStrangers 1.0
+Fri May 14 23:38:48 2021
