@@ -10,7 +10,35 @@ define s  = Character("Stranger",color="#0000ff")                             # 
 define n  = Character("Narrator",color="#888888")                             # narrator
 
 
+####################################################
+# IMAGES
+image bg subwayclosed:
+    "images/backgrounds/bg-moving_subway.gif"
+    0.25
+    "images/backgrounds/bg-moving_subway2.png"
+    0.25
+    repeat
 
+image npc neutral:
+    "images/npc/neutral_npc.gif"
+    0.25
+    "images/npc/neutral_npc2.png"
+    0.25
+    repeat
+
+image npc confused:
+    "images/npc/neutral_npc.gif"
+    0.25
+    "images/npc/neutral_npc2.png"
+    0.25
+    repeat
+
+image npc happy:
+    "images/npc/neutral_npc.gif"
+    0.25
+    "images/npc/neutral_npc2.png"
+    0.25
+    repeat
 
 
 ####################################################
